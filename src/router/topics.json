@@ -1,0 +1,221 @@
+[
+    {
+        "id": 1,
+        "ref":1,
+        "title": "The internet in a nutshell",
+        "subtitle": "",
+        "image" : "1.png",
+        "backgroundColor" : "rgba(203, 108, 230, 0.1)",
+        "description": "Understand how a simple URL takes you to your favorite website",
+        "welcome": "Welcome to the Internet in a nutshell! This chapter will guide you through four key areas. First, we'll embark on 'The Elements of the Internet,' exploring the foundational pieces that make the Internet work, from servers to DNS. Then, in 'The Journey of an HTTP Request,' we'll follow the path of an HTTP request as it travels from your browser to the server and back, demystifying the process. In 'Build Your Own Footprint,' you will learn how to create a unique online presence, gaining an understanding of how trackers monitor your actions. Finally, with 'Map of the Internet,' we'll guide you step by step in building a network graph, revealing how websites, trackers, and users are interconnected. This chapter is an enlightening exploration that unveils the mysteries of the digital landscape.",
+        "preview": "Ever wondered what happens when you enter a website? In this chapter, you gain insight into how websites load, what things like DNS and servers have to do with it, and how trackers are connected within the Internet through a network graph. We guide you step by step in building the network graph, allowing you to understand these connections.",
+        "summary": "In this chapter  'The Internet in a Nutshell', you have gained insight on the fascinating journey of an HTTP request, exploring essential elements of the Internet. Along the way, you have also learned to visualize the complex web of connection as a network graph. But there is more to this journey! In the next section, we delve deeper, unraveling the world of web tracking and revealing how your online behavior might be observed and analyzed by first and third-party tracker.",
+        "subtopics": [
+            {
+                "title": "The elements of the Internet",
+                "subtitle": "",
+                "destination": "/sub00elements",
+                "previous": "/",
+                "next": "/sub01journey",
+                "up": "/overview",
+                "image" : "elementsOfTheInternetCircle.png"
+            },
+            {
+                "title": "The journey of an HTTP request",
+                "subtitle": "",
+                "destination": "/sub01journey",
+                "previous": "/overview",
+                "next": "/sub02build",
+                "up": "/overview",
+                "image" : "theJourneyOfAnHttpRequestOverview.png"
+            },
+            {
+                "title": "Build your own digital footprint",
+                "subtitle": "",
+                "destination": "/sub02build",
+                "previous": "/sub01journey",
+                "next": "/sub02map",
+                "up": "/overview",
+                "image" : "buildDigitalFootprintOverview.png"
+            },
+            {
+                "title": "Map of the internet",
+                "subtitle": "",
+                "destination": "/sub02map",
+                "previous": "/sub02build",
+                "next": "/sub03who",
+                "up": "/overview",
+                "image" : "mapOfTheInternetOverview.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "ref":2,
+        "title": "The world of web tracking",
+        "subtitle": " ",
+        "backgroundColor" : "rgba(0, 186, 160, 0.09)",
+        "image" : "2.png",
+        "description": "Discover the why, who, what and how of web tracking",
+        "preview":"In this chapter, we offer a guide into the complex world of web tracking. Think of it as a brief overview that takes you on a journey to discover who is watching you online, why they care, and how they track. It is all about understanding the ways websites keep tabs on your activities.",
+        "summary":"This chapter 'The world of web tracking', shed light on the complex web tracking landscape. From exploring the differences between first-party and third-party tracking to understanding who is watching you online, why websites track you and how this intricate process functions, even without you knowing. Now, as we move forward, this leads use to question:  What are the real implications of web tracking? How does it interplay with our privacy rights? Let's dive into the critical issues with web tracking in the next chapter and uncover the truth.",
+        "subtopics": [
+            {
+                "title": "First- & Third Party Tracker",
+                "subtitle": "",
+                "destination": "/sub03who",
+                "previous": "/sub02build",
+                "next": "/sub04how",
+                "up": "/overview",
+                "image" : "firstAndThirdPartyCircle.png"
+            },
+            {
+                "title": "First-Party Data Collection",
+                "subtitle": "",
+                "destination": "/sub03whyTrack",
+                "previous": "/sub03who",
+                "next": "/sub03embed",
+                "up": "/overview",
+                "image" : "whyFirstPartiesTrack.png"
+            },
+            {
+                "title": "Third-Party Integrations",
+                "subtitle": "",
+                "destination": "/sub03embed",
+                "previous": "/sub03whyTrack",
+                "next": "/sub04how",
+                "up": "/overview",
+                "image" : "whyFirstPartyEmbedThirdParty.png"
+            },
+            {
+                "title": "Mechanism of web tracking",
+                "subtitle": "",
+                "destination": "/sub04how",
+                "previous": "/sub03what",
+                "next": "/sub05data",
+                "up": "/overview",
+                "image" : "howWebTrackingWorksOverview.png"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "ref":3,
+        "title": "Issues with web tracking",
+        "subtitle": "",
+        "backgroundColor" : "rgba(207, 128, 108, 0.2)",
+        "image" : "3.png",
+        "description": "Understand the impact of web tracking on privacy, its uses, and the laws that control it",
+        "preview":"This chapter is where we delve into the heart of the matter. You explore the various aspects of web tracking, gaining an understanding of its functions and implications, how it affects your privacy, and what legal regulations govern its use. Ever heard of GDPR? We break it down for you",
+        "summary":"In this chaptern 'Issues with Web Tracking', we delved into the concerns surrounding web tracking, highlighting what data is collected and its pervasiveness, and learned about legal aspects like GDPR. In the next chapter, we  guide you on how to take control of your online privacy, from understanding PETs and TETs to exploring real-world tools.",
+        "subtopics": [
+            {
+                "title": "Collected data",
+                "subtitle": "",
+                "destination": "/sub05data",
+                "previous": "/sub04how",
+                "next": "/sub06pervasiveness",
+                "up": "/overview",
+                "image" : "whatDataIsBeingCollectedOverview.png"
+            },
+            {
+                "title": "Pervasiveness of web tracking",
+                "subtitle": "",
+                "destination": "/sub06pervasiveness",
+                "previous": "/sub05data",
+                "next": "/sub06data",
+                "up": "/overview",
+                "image" : "pervasivenessGraph.png"
+            },
+            {
+                "title": "The biggest third-party Trackers",
+                "subtitle": "",
+                "destination": "/sub06whoTrack",
+                "previous": "/sub06pervasiveness",
+                "next": "/sub06where",
+                "up": "/overview",
+                "image" : "barChart.png"
+            },
+            {
+                "title": "Trackers around the globe",
+                "subtitle": "",
+                "destination": "/sub06whereData",
+                "previous": "/sub06whoTrack",
+                "next": "/sub07gdpr",
+                "up": "/overview",
+                "image" : "whereIsYourDataSentOverview.png"
+            },
+            {
+                "title": "General Data Protection Regulation (GDPR)",
+                "subtitle": "",
+                "destination": "/sub07gdpr",
+                "previous": "/sub06pervasiveness",
+                "next": "/sub08pet",
+                "up": "/overview",
+                "image" : "gdpr.png"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "ref":4,
+        "title": "What can you do about it",
+        "subtitle": "",
+        "backgroundColor" : "rgba(56, 113, 193, 0.1)",
+        "image" : "4.png",
+        "description": "Learn about PET's & TET's to take control of your online privacy",
+        "preview":"Feeling a bit overwhelmed by the complexities of the web tracking world? Don't worry! In this chapter, we equip you with the tools needed to maintain your online privacy. Think of it as a survival guide for the digital world!",
+        "summary":"Congratulations on taking charge of your digital life! You learned about privacy-enhancing technologies (PETs), transparency-enhancing tools (TETs), and explored various tools that can help you navigate the web more securely. Want to learn more or revisit any topic? Feel free to explore our FAQs or Glossary.",
+        "subtopics": [
+            {
+                "title": "PETs and TETs",
+                "subtitle": "",
+                "destination": "/sub08pet",
+                "previous": "/sub07gdpr",
+                "next": "/overview",
+                "up": "/overview",
+                "image" : "petsTetsOverview.png"
+            },
+            {
+                "title": "Protect your privacy",
+                "subtitle": "",
+                "destination": "/sub09protect",
+                "previous": "/sub08pet",
+                "next": "/overview",
+                "up": "/overview",
+                "image" : "howProtectPrivacyOnline.png"
+            }
+        ]
+    },
+
+    {
+        "id": "",
+        "ref":"",
+        "title": "FAQ",
+        "subtitle": "",
+        "destination": "/faq",
+        "backgroundColor" : "rgba(0, 186, 160, 0.2)",
+        "image" : "5.png",
+        "description": " Explore what other users also asked",
+        "preview":"",
+        "summary":"TODOO SUMMARY",
+        "subtopics": [
+        ]
+    },
+
+    {
+        "id": "",
+        "ref":"",
+        "title": "Glossary",
+        "subtitle": "",
+        "destination": "/glossar",
+        "backgroundColor" : "rgba(207, 128, 108, 0.2)",
+        "image" : "6.png",
+        "description": "Browse our glossary for key terms about web tracking",
+        "preview":"",
+        "summary":"TODOO SUMMARY",
+        "subtopics": [
+        ]
+    }
+
+]

@@ -1,0 +1,10 @@
+
+@import './base.css';
+@import url("https://fonts.googleapis.com/css?family=Baloo+2");
+@import url("https://fonts.googleapis.com/css?family=Sirin+Stencil");
+
+#app {
+  font-family: "Baloo 2", sans-serif;
+  font-size: 16px;
+  color: azure;  /* or any color you want */
+}
